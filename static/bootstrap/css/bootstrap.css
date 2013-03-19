@@ -6189,11 +6189,11 @@ blockquote small {
 }
 
 body {
-  background-color: #0f8790;
-  background-image: -webkit-gradient(radial, center center, 0, center center, 460, from(#12a5b0), to(#0f8790));
-  background-image: -webkit-radial-gradient(circle, #12a5b0, #0f8790);
-  background-image: -moz-radial-gradient(circle, #12a5b0, #0f8790);
-  background-image: -o-radial-gradient(circle, #12a5b0, #0f8790);
+  background-color: #000090;
+  background-image: -webkit-gradient(radial, center center, 0, center center, 460, from(#0000ee), to(#000090));
+  background-image: -webkit-radial-gradient(circle, #0000ee, #000090);
+  background-image: -moz-radial-gradient(circle, #0000ee, #000090);
+  background-image: -o-radial-gradient(circle, #0000ee, #000090);
   background-repeat: no-repeat;
 }
 
