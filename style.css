@@ -1,24 +1,24 @@
-.navbar .nav > #1 > a:focus,
-.navbar .nav > #1 > a:hover {
+#1 > a:focus,
+#1 > a:hover {
  background-color: #ff6600;
 }
 
-.navbar .nav > #2 > a:focus,
-.navbar .nav > #2 > a:hover {
+#2 > a:focus,
+#2 > a:hover {
  background-color: #00beef;
 }
 
-.navbar .nav > #3 > a:focus,
-.navbar .nav > #3 > a:hover {
+#3 > a:focus,
+#3 > a:hover {
  background-color: #ee0000;
 }
 
-.navbar .nav > #4 > a:focus,
-.navbar .nav > #4 > a:hover {
+#4 > a:focus,
+#4 > a:hover {
  background-color: #0000aa;
 }
 
-.navbar .nav > #5 > a:focus,
-.navbar .nav > #5 > a:hover {
+#5 > a:focus,
+#5 > a:hover {
  background-color: #66ff00;
 }
