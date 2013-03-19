@@ -1,0 +1,24 @@
+.navbar .nav > li[id=1] > a:focus,
+.navbar .nav > li[id=1] > a:hover {
+ background-color: #ff6600;
+}
+
+.navbar .nav > li[id=2] > a:focus,
+.navbar .nav > li[id=2] > a:hover {
+ background-color: #00beef;
+}
+
+.navbar .nav > li[id=3] > a:focus,
+.navbar .nav > li[id=3] > a:hover {
+ background-color: #ee0000;
+}
+
+.navbar .nav > li[id=4] > a:focus,
+.navbar .nav > li[id=4] > a:hover {
+ background-color: #0000aa;
+}
+
+.navbar .nav > li[id=5] > a:focus,
+.navbar .nav > li[id=5] > a:hover {
+ background-color: #66ff00;
+}
