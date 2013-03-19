@@ -8,4 +8,4 @@ Installation
 
 Il suffit de faire :
 `git clone git://github.com/alecalve/comedmus.git`
-Dans un répertoire accessible via Internet.
+dans un répertoire accessible via Internet.
