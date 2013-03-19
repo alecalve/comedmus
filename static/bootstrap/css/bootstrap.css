@@ -976,7 +976,7 @@ pre {
   padding: 0 3px 2px;
   font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
   font-size: 12px;
-  color: #444444;
+  color: #ffffff;
   -webkit-border-radius: 3px;
      -moz-border-radius: 3px;
           border-radius: 3px;
@@ -4602,7 +4602,7 @@ input[type="submit"].btn.btn-mini {
 .navbar .nav > li > a:hover {
   color: #ffffff;
   text-decoration: none;
-  background-color: #ff6600;
+  background-color: rgba(0, 0, 200, 0.7);
 }
 
 .navbar .nav > .active > a,
@@ -4610,7 +4610,7 @@ input[type="submit"].btn.btn-mini {
 .navbar .nav > .active > a:focus {
   color: #ffffff;
   text-decoration: none;
-  background-color: #ff6600;
+  background-color: rgba(0, 0, 200, 1);
   -webkit-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
      -moz-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
           box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
@@ -6095,7 +6095,7 @@ a.badge:focus {
   font-weight: 200;
   line-height: 30px;
   color: inherit;
-  background-color: #3cb9c6;
+  background-color: #444444;
   -webkit-border-radius: 6px;
      -moz-border-radius: 6px;
           border-radius: 6px;
@@ -6106,7 +6106,7 @@ a.badge:focus {
   font-size: 60px;
   line-height: 1;
   letter-spacing: -1px;
-  color: inherit;
+  color: rgba(220,220,0,1);
 }
 
 .hero-unit li {
