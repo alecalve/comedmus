@@ -10,6 +10,9 @@ include('head.php');
 				<p>Suspendisse adipiscing neque a est vehicula sed facilisis arcu faucibus. Duis sapien elit, vulputate rutrum ultricies id, accumsan non justo. Vivamus a lectus non elit sagittis consectetur. Morbi dapibus commodo mi vel varius. Vivamus tincidunt tempus odio, et viverra nibh molestie non. Aliquam erat volutpat. Fusce non pharetra ante.</p>
 				<p>Donec semper molestie mi, nec malesuada nibh iaculis vitae. Vivamus vehicula velit ac tellus fringilla adipiscing. Nullam pellentesque tempor lorem eu consectetur. Duis metus leo, dapibus id sodales eu, feugiat ac leo. Curabitur dui neque, pharetra id lobortis in, suscipit id ligula. Nunc et accumsan diam. Curabitur a lacus sagittis ligula pharetra hendrerit. Quisque mattis nunc in erat ultricies eu dictum magna facilisis. Vivamus non ante sem, id commodo enim. Suspendisse sollicitudin porttitor ligula a tempus. Sed laoreet interdum odio. Nunc ornare, felis id accumsan aliquam, massa ipsum vehicula lectus, aliquam bibendum nulla lorem ac odio. Nulla iaculis nisi eu neque dapibus sodales. Maecenas elementum, mauris et sodales placerat, nisl elit ornare elit, vitae tincidunt nulla sapien in metus. Nam congue quam eget nisi vulputate faucibus. </p>
 			</div>
+    <script>
+        $("#index").addClass("active");
+    </script>
 <?php
 include('tail.php');
 ?>

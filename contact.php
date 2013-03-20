@@ -12,6 +12,9 @@ Rue Roger Couttolenc
 60200 Compiègne</pre>
 			</h1>
             </div>
+    <script>
+        $("#contact").addClass("active");
+    </script>
 <?php
 include('tail.php');
 ?>
