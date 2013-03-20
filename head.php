@@ -13,11 +13,11 @@
           <div class="navbar-inner">
             <div class="container">
               <ul class="nav">
-                    <li><a href="index.html"> Accueil</a></li>
-                    <li><a href="presentation.html">Qu'est-ce-que la Com' ?</a></li>
-                    <li><a href="synopsis.html">Synopsis</a></li>
-                    <li><a href="partenaires.html">Partenaires</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="index.php"> Accueil</a></li>
+                    <li><a href="presentation.php">Qu'est-ce-que la Com' ?</a></li>
+                    <li><a href="synopsis.php">Synopsis</a></li>
+                    <li><a href="partenaires.php">Partenaires</a></li>
+                    <li><a href="contact.php">Contact</a></li>
               </ul>
             </div>
           </div>
