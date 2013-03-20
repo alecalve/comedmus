@@ -24,3 +24,4 @@
         </div>
         <!-- Fin menu -->
         <!-- Main content -->
+        <div class="container">
