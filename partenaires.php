@@ -2,9 +2,34 @@
 include('head.php');
 ?>
             <div class="hero-unit">
-                <h3>Merci à eux</h3>
-                <p>Sed quis fringilla diam. Aliquam erat volutpat. Donec ornare, ipsum quis interdum convallis, orci enim venenatis lectus, adipiscing adipiscing ante enim pellentesque tortor. Quisque euismod lobortis consequat. Integer imperdiet leo nec felis mollis id accumsan neque aliquet. Fusce vitae enim ut leo interdum dictum sit amet sed orci. Nulla pharetra justo ipsum, sed molestie dolor. Donec sed ipsum vel lorem consectetur sodales. Nam quam quam, sodales nec viverra a, tincidunt ut turpis. Mauris a odio vel est viverra vulputate sollicitudin at neque. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc non velit at mauris porttitor feugiat. Aliquam erat purus, lacinia eget hendrerit fringilla, lacinia ac sapien. Curabitur id velit vel elit accumsan sollicitudin non in tortor.</p>
-				<p>Nam pharetra sem et quam lacinia eu eleifend nisl commodo. Etiam convallis blandit urna, id euismod magna consectetur at. Maecenas at lacus sit amet velit cursus pellentesque varius a sem. Aenean varius lobortis mattis. In consequat elit eget justo gravida sagittis. Morbi iaculis mollis ultrices. Suspendisse feugiat iaculis turpis nec pellentesque. Sed et est et enim mattis varius ac ut leo. Fusce semper porttitor leo, ut ultricies sem faucibus ut. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum non metus est, sed suscipit felis. Donec dolor enim, auctor ac scelerisque ut, hendrerit ut erat. Fusce vel urna id augue aliquam aliquam. Nulla facilisi.</p>
+                <h3>1) Merci de donner des sous</h3>
+                <h3>2) Votre participation :</h3>
+
+                <p>Votre entrée en scène se fera au travers de tous nos supports de communication, à savoir :
+                <ul>
+                    <li>un site Internet : www.lemystereducameleon.fr</li>
+                    <li>des flyers distribués dans l’UTC et en ville,</li>
+                    <li>des programmes les soirs de représentation,</li>
+                    <li>des affiches dans toute la ville,</li>
+                    <li>une bande annonce de notre spectacle visible sur Internet,</li>
+                    <li>une banderole au-dessus de la rue Solférino et sur la passerelle de BF</li>
+                    <li>une projection des logos partenaires sur le rideau du Théâtre Impérial, au début, à l’entracte et à la fin du spectacle,</li>
+                    <li>des interventions à la radio</li>
+                </ul></p>
+
+                <h3>3)Tarifs :</h3>
+                <ul>
+                    <li>50 € : Internet</li>
+                    <li>100 € : Internet + flyers, programmes</li>
+                    <li>150 € : Internet + flyers, programmes + affiches + Bande annonce</li>
+                    <li>200 € : Internet + flyers, programmes + affiches + BA + banderole + projection</li>
+                    <li>250 € : Internet + flyers, programmes + affiches + BA + banderole + projection + radio</li>
+                </ul>
+                <p>+ apparition dvd offerte pour les anciens sponsors</p>
+
+                <p>Vous bénéficierez de places offertes.</p>
+                <p>Nous pourrons également vendre vos produits (consommables) lors de permanences dans l’UTC, ainsi qu’au café du théâtre, disponible après les représentations.</p>
+
             </div>
     <script>
         $("#partenaires").addClass("active");
