@@ -10,7 +10,6 @@ Université de Technologie de Compiègne
 PAE - Comédie Musicale
 Rue Roger Couttolenc
 60200 Compiègne</pre>
-			</h1>
             </div>
     <script>
         $("#contact").addClass("active");
