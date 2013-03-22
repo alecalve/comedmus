@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf8">
+	<meta charset="utf-8">
 	<title>Le Mystère du Caméléon</title>
 	<link href="static/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="style.css" rel="stylesheet" type="text/css">
