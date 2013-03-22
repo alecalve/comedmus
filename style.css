@@ -1,7 +1,6 @@
-h3 {
- color: rgba(200,0,0,1);
-}
-
 h1 {
- color: rgb(222, 187, 39);
+    color: rgb(222, 187, 39);
+}
+h3 {
+    color: rgba(200,0,0,1);
 }

@@ -1,4 +1,4 @@
-        </div>
-        <!-- Fin de page -->
+    </div>
+    <!-- Fin de page -->
 </body>
 </html>
