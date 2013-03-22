@@ -15,7 +15,7 @@ include('head.php');
                     <li>une banderole au-dessus de la rue Solférino et sur la passerelle de BF</li>
                     <li>une projection des logos partenaires sur le rideau du Théâtre Impérial, au début, à l’entracte et à la fin du spectacle,</li>
                     <li>des interventions à la radio</li>
-                </ul></p>
+                </ul>
 
                 <h3>3)Tarifs :</h3>
                 <ul>
