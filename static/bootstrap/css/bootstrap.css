@@ -734,6 +734,15 @@ a.text-success:focus {
   text-align: center;
 }
 
+@font-face
+{
+	font-family: 'gomarice_mousou_record';
+	src: url('gomarice_mousou_record.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 h1,
 h2,
 h3,
@@ -741,7 +750,7 @@ h4,
 h5,
 h6 {
   margin: 10px 0;
-  font-family: 'Lobster', cursive;
+  font-family: 'gomarice_mousou_record', cursive;
   font-weight: normal;
   line-height: 20px;
   color: inherit;
