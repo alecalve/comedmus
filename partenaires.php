@@ -2,7 +2,8 @@
 include('head.php');
 ?>
         <div class="hero-unit">
-            <h3>1) Merci de donner des sous</h3>
+            <h3>1) Merci</h3>
+            <p>Nous tenons à vous remercier de participer à notre projet.</p>
             <h3>2) Votre participation :</h3>
 
             <p>Votre entrée en scène se fera au travers de tous nos supports de communication, à savoir :
@@ -17,7 +18,7 @@ include('head.php');
                 <li>des interventions à la radio</li>
             </ul>
 
-            <h3>3)Tarifs :</h3>
+            <h3>3) Tarifs :</h3>
             <ul>
                 <li>50 € : Internet</li>
                 <li>100 € : Internet + flyers, programmes</li>
