@@ -17,6 +17,7 @@
                     <li id="index"><a href="index.php"> Accueil</a></li>
                     <li id="presentation"><a href="presentation.php">Qu'est-ce-que la Com' ?</a></li>
                     <li id="synopsis"><a href="synopsis.php">Synopsis</a></li>
+                    <li id="evenements"><a href="evenements.php">Évènements</a></li>
                     <li id="partenaires"><a href="partenaires.php">Partenaires</a></li>
                     <li id="contact"><a href="contact.php">Contact</a></li>
                 </ul>
