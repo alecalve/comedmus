@@ -1,4 +1,4 @@
-h1 {
+h1, h4 {
     color: rgb(222, 187, 39);
 }
 
@@ -22,4 +22,8 @@ html {
 
 .hero-unit {
     margin-bottom: 0px;
+}
+
+ul.thumbnails {
+    margin-top: 70px;
 }
