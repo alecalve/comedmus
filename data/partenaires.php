@@ -1,6 +1,3 @@
-<?php
-include('head.php');
-?>
         <div class="hero-unit">
             <h3>1) Merci</h3>
             <p>Nous tenons à vous remercier de participer à notre projet.</p>
@@ -32,9 +29,4 @@ include('head.php');
             <p>Nous pourrons également vendre vos produits (consommables) lors de permanences dans l’UTC, ainsi qu’au café du théâtre, disponible après les représentations.</p>
 
         </div>
-        <script>
-            $("#partenaires").addClass("active");
-        </script>
-<?php
-include('tail.php');
-?>
+

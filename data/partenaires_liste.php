@@ -1,6 +1,3 @@
-<?php
-include('head.php');
-?>
 		<div class="row">
 			<div class="span6">
 				<ul class="thumbnails">
@@ -45,9 +42,4 @@ include('head.php');
 			</div>
 		
 		</div>
-        <script>
-            $("#partenaires").addClass("active");
-        </script>
-<?php
-include('tail.php');
-?>
+
