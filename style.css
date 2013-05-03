@@ -6,24 +6,10 @@ h3 {
     color: rgba(255,0,0,1);
 }
 
-body {
-    background-image:url('static/logo.svg');
-    background-size:100% 100%;
-    background-repeat:no-repeat;
-}
-
-html {
-    height: 100%;  
-}
-
-.hero-unit, .container{
-    background-color: rgba(17, 17, 17, 0.7);
-}
-
-.hero-unit {
-    margin-bottom: 0px;
-}
-
-ul.thumbnails {
-    margin-top: 70px;
+.logo {
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+	margin: auto;
+	height: 100%;
 }
