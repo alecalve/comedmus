@@ -6,17 +6,23 @@ h3 {
     color: rgba(255,0,0,1);
 }
 
-.logo {
-	display: inline-block;
-	vertical-align: middle;
-	position: relative;
-	margin: auto;
+html {
+	height: 100%;
+}
+
+.container {
+	height: 100%;
+}
+
+.index img {
+	margin-left: auto;
+	margin-right: auto;
 	height: 100%;
 }
 
 .overthetop {
   z-index:42;
-  position:absolute;
+  display: none;
   left:25%;
   right:25%;
 }
