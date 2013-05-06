@@ -38,3 +38,8 @@ html {
 .hero-unit {
   height:80%;
 }
+.previous_link {
+  position:absolute;
+  left:0px;
+  top:0px;
+}
