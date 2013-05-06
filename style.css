@@ -1,11 +1,3 @@
-h1, h4 {
-    color: rgb(222, 187, 39);
-}
-
-h3 {
-    color: rgba(255,0,0,1);
-}
-
 html {
 	height: 100%;
 }
@@ -14,34 +6,38 @@ html {
 	height: 100%;
 }
 
+.top {
+	margin-top: 110%;
+}
+
+.breaker {
+	margin-top: 100%;
+}
+
+.red {
+	background-color: #e43433;
+}
+
+.yellow {
+	background-color: #ffed00;
+	text-color: black;
+}
+
+.yellow a {
+	color: #7E2217;
+}
+
+.yellow p, .yellow pre, .yellow h4 {
+	color: black;
+}
+
+.blue {
+	background-color: #424590;
+}
+
 .index {
 	position: absolute;
 	width: 80%;
 	height: 80%;
 	left: 10%;
-}
-.index iframe {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.overthetop {
-  position:absolute;
-  z-index:2;
-  display: none;
-  left:25%;
-  right:25%;
-  top:10px;
-}
-.hero-unit {
-  height:80%;
-}
-.previous_link {
-  position:absolute;
-  left:0px;
-  top:0px;
-}
-.previous_link img {
-  width:110px;
 }
