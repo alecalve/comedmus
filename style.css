@@ -17,14 +17,13 @@ html {
 .index {
 	position: absolute;
 	width: 80%;
+	height: 80%;
 	left: 10%;
-
 }
-.index img {
+.index iframe {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	height: 100%;
 }
 
 .overthetop {
