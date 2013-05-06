@@ -7,6 +7,7 @@
     <link href="style.css" rel="stylesheet" type="text/css">
     <link rel="shortcut icon" href="favicon.ico"/>
     <script src="static/jquery.js"></script>
+    <script src="static/jquery.svg.js"></script>
     <script src="static/pages.js"></script>
     <script src="static/bootstrap/js/bootstrap.min.js"></script>
 </head>
