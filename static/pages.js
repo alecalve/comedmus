@@ -1,4 +1,6 @@
 function show_page(name) {
-  console.log('#' + name);
   $('#' + name).fadeIn(500);
+}
+function hide_page(name) {
+  $('#' + name).fadeOut(500);
 }
