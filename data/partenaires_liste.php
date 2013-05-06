@@ -1,4 +1,5 @@
 		<div class="row">
+			<a class="previous_link" href="#" onclick="hide_page('partenaires_liste')"><img src="static/retour.png" alt="<-" /></a>
 			<div class="span6">
 				<ul class="thumbnails">
 					<li class="span6">

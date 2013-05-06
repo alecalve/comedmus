@@ -1,4 +1,5 @@
         <div class="hero-unit">
+			<a class="previous_link" href="#" onclick="hide_page('partenaires')"><img src="static/retour.png" alt="<-" /></a>
             <h3>1) Merci</h3>
             <p>Nous tenons à vous remercier de participer à notre projet.</p>
             <h3>2) Votre participation :</h3>
