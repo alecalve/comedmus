@@ -4,7 +4,7 @@ foreach (glob('data/*.php') as $filename) {
   $moduleName = str_replace('data/','',$filename);
   $moduleName = str_replace('.php','',$moduleName);
   
-  echo '<div id="' . $moduleName . '" style="visibility:hidden;" class="overthetop">' . "\n";
+  echo '<div id="' . $moduleName . '" style="display:none;" class="overthetop">' . "\n";
   include($filename);
   echo "\n" . '</div>' . "\n";
     

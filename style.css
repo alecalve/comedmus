@@ -28,8 +28,13 @@ html {
 }
 
 .overthetop {
-  z-index:42;
+  position:absolute;
+  z-index:2;
   display: none;
   left:25%;
   right:25%;
+  top:10px;
+}
+.hero-unit {
+  height:80%;
 }
