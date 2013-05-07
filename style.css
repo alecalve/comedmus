@@ -18,17 +18,14 @@ html {
 	background-color: #e43433;
 }
 
-.yellow {
+.yellow, .yellow pre {
 	background-color: #ffed00;
-	text-color: black;
+	color: black;
 }
+
 
 .yellow a {
 	color: #7E2217;
-}
-
-.yellow p, .yellow pre, .yellow h4 {
-	color: black;
 }
 
 .blue {
