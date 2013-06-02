@@ -1,19 +1,19 @@
-html {
+html, body {
 	height: 100%;
+    border: 0px;
+    margin: 0px;
 }
 
 .container {
 	height: 100%;
 }
 
-.top {
-	margin-top: 110%;
+.hero-unit, .item {
+    display: none;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
 }
-
-.breaker {
-	margin-top: 100%;
-}
-
 .red {
 	background-color: #e43433;
 }
@@ -22,7 +22,6 @@ html {
 	background-color: #ffed00;
 	color: black;
 }
-
 
 .yellow a {
 	color: #7E2217;
