@@ -6,11 +6,15 @@ function hide_page(name) {
     $('#' + name).fadeOut(500);
     $('#logo').fadeIn(500);
 }
-    
+
 $(function() {
-	var svg = $('#logo').svg();
-	svg.load('static/logo.svg', { 
+    var svg = $('#logo').svg();
+    svg.load('static/logo.svg', {
         addTo: false,
         changeSize: false,
-	});
-}); 
+    });
+});
+
+$(".close").click(function() {
+    $("#modal-" + this.id).modal('hide');
+});

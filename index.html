@@ -11,15 +11,19 @@
     <script src="static/bootstrap/js/bootstrap.min.js"></script>
 </head>
 <body>
-	<div class="index" id="logo"></div>
-        
-	<div class="hero-unit blue" id="presentation">
-		<a onclick="hide_page('presentation')" href="#">retour</a>
-        <h3>Presentation de l'asso</h3>
-        <p>La Comédie Musicale est une association artistique et culturelle qui existe depuis plus de 20 ans au sein de l’UTC. Le projet rassemble une équipe variée de 100 à 120 étudiants qui se mobilisent pendant 3 semestres pour créer un spectacle inédit. L’année dernière les 4 représentations au théâtre impérial de Compiègne ont attiré plus de 1800 spectateurs et ont rapporté 17. 818,60 € qui seront intégralement investis dans notre projet.<p>
-        <p>Le but de ce projet est bien sur de partager notre passion de la scène et de véhiculer les valeurs qui nous ont poussés à nous lancer dans l’aventure. Nous souhaitons viser un public large en attirant aussi bien les étudiants que les habitants de tous âges de l’agglomération pour renforcer les liens culturels entre l’UTC et la ville de Compiègne.<p>
+    <div class="index" id="logo"></div>
+
+    <div class="hero-unit blue" id="presentation">
+        <div class="row">
+            <div class="span12">
+                <a onclick="hide_page('presentation')" href="#">retour</a>
+                <h3>Presentation de l'asso</h3>
+                <p>La Comédie Musicale est une association artistique et culturelle qui existe depuis plus de 20 ans au sein de l’UTC. Le projet rassemble une équipe variée de 100 à 120 étudiants qui se mobilisent pendant 3 semestres pour créer un spectacle inédit. L’année dernière les 4 représentations au théâtre impérial de Compiègne ont attiré plus de 1800 spectateurs et ont rapporté 17. 818,60 € qui seront intégralement investis dans notre projet.<p>
+                <p>Le but de ce projet est bien sur de partager notre passion de la scène et de véhiculer les valeurs qui nous ont poussés à nous lancer dans l’aventure. Nous souhaitons viser un public large en attirant aussi bien les étudiants que les habitants de tous âges de l’agglomération pour renforcer les liens culturels entre l’UTC et la ville de Compiègne.<p>
+            </div>
+        </div>
     </div>
-        
+
     <div class="hero-unit yellow" id="contact">
         <a onclick="hide_page('contact')" href="#">retour</a>
         <p>Par mail à: <a href="mailto:comedmus@gmail.com">comedmus@gmail.com</a></p>
@@ -32,117 +36,428 @@ Rue Roger Couttolenc
 60200 Compiègne
         </pre>
     </div>
-        
+
     <div class="hero-unit red" id="synopsis">
         <a onclick="hide_page('synopsis')" href="#">retour</a>
         <h3>Mais qui est donc ce cameleon ?</h3>
         <p>Patience, vous saurez tout en temps voulu.</p>
     </div>
-    
+
     <div class="hero-unit blue" id="equipe">
         <a onclick="hide_page('equipe')" href="#">retour</a>
-        <h3>l'equipe</h3>
-        <p>Les photos sont en train d’être prises</p>
+        <div class="row">
+            <div class="span16">
+                <div id="clarisse" class="sponsor">
+                    <a href="#modal-clarisse" role="button" class="btn" data-toggle="modal">
+                        <div class="sponsor-img">
+                            <img src="media/photos/clarisse.jpg" alt="Clarisse Durand-Henriot">
+                        </div>
+                    </a>
+                    <div id="modal-clarisse" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="label" aria-hidden="true">
+                        <div class="modal-header">
+                            <button type="button" class="close" id="ultima" data-dismiss="modal" aria-hidden="true">×</button>
+                            <h4 id="label">Clarisse Durand-Henriot</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>Agée de 20 ans, à l'allure élancée de girafe gigotante, j’aime les patates, les pandas, les pâtes comme tout bon étudiant, souffler sur les pissenlits, et surtout la Comédie Musicale. Je chante telle une cocotte minute mourante, danse comme une frite dans la friteuse, écris avec un stylo à bille rose dégradé vert à poils noirs. Mais surtout, j’éduque un jeune caméléon qui aura 1 an et 4 mois en décembre, que j’aime promener en laisse partout dans Compiègne !</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn close" id="ultima" data-dismiss="modal" aria-hidden="true">Fermer</button>
+                        </div>
+                    </div>
+                </div>
+                <div id="coline" class="sponsor">
+                    <a href="#modal-coline" role="button" class="btn" data-toggle="modal">
+                        <div class="sponsor-img">
+                            <img src="media/photos/coline.jpg" alt="Coline Janvier">
+                        </div>
+                    </a>
+                    <div id="modal-coline" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="label" aria-hidden="true">
+                        <div class="modal-header">
+                            <button type="button" class="close" id="ultima" data-dismiss="modal" aria-hidden="true">×</button>
+                            <h4 id="label">Coline Janvier</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>Je fais partie d’un magnifique binôme de blondasses qui cherche de gentils sponsors qui nous donneront de la caillasse ! Normalement je suis censée parler de moi mais je crois que cela vous importe peu, chers lecteurs. Quoique, si vous êtes en train de lire ces lignes c’est que ça vous intéresse... Ouais j’aurais peut-être dû raconter ma vie. Tant pis.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn close" id="ultima" data-dismiss="modal" aria-hidden="true">Fermer</button>
+                        </div>
+                    </div>
+                </div>
+                <div id="leo" class="sponsor">
+                    <a href="#modal-leo" role="button" class="btn" data-toggle="modal">
+                        <div class="sponsor-img">
+                            <img src="media/photos/leo.jpg" alt="Léo Lemeray">
+                        </div>
+                    </a>
+                    <div id="modal-leo" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="label" aria-hidden="true">
+                        <div class="modal-header">
+                            <button type="button" class="close" id="ultima" data-dismiss="modal" aria-hidden="true">×</button>
+                            <h4 id="label">Leo Lemeray</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>Léo est mon nom, arrivé en février à l’UTC et fier de l’être. Mon histoire n’est pas particulièrement intéressante mais elle n’est pas sans intérêt. Quoi qu’il en soit, je préfère tout de même écouter celle des autres. Bref tout ça pour dire que j’ai toujours la tête dans les nuages, le regard dans le vide et que j’aime les ours.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn close" id="ultima" data-dismiss="modal" aria-hidden="true">Fermer</button>
+                        </div>
+                    </div>
+                </div>
+                <div id="clemence_b" class="sponsor">
+                    <a href="#modal-clemence_b" role="button" class="btn" data-toggle="modal">
+                        <div class="sponsor-img">
+                            <img src="media/photos/clémence_b.jpg" alt="Clémence Batardière">
+                        </div>
+                    </a>
+                    <div id="modal-clemence_b" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="label" aria-hidden="true">
+                        <div class="modal-header">
+                            <button type="button" class="close" id="ultima" data-dismiss="modal" aria-hidden="true">×</button>
+                            <h4 id="label">Clemence Batardiere</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>Bonjour à tous,<p>
+                            <p>De par ma chevelure blonde, j'aime avoir à mes côtés un verre vide (pour y mettre mon orange pressée) et un verre d'eau, selon mes humeurs !</p>
+                            <p>La musique et la Comédie musicale restent mes meilleurs passe-temps !</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn close" id="ultima" data-dismiss="modal" aria-hidden="true">Fermer</button>
+                        </div>
+                    </div>
+                </div>
+                <div id="eugenie" class="sponsor">
+                    <a href="#modal-eugenie" role="button" class="btn" data-toggle="modal">
+                        <div class="sponsor-img">
+                            <img src="media/photos/eugenie.jpg" alt="Eugénie Le Jan">
+                        </div>
+                    </a>
+                    <div id="modal-eugenie" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="label" aria-hidden="true">
+                        <div class="modal-header">
+                            <button type="button" class="close" id="ultima" data-dismiss="modal" aria-hidden="true">×</button>
+                            <h4 id="label">Eugenie Le Jan</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>La marmotte est un mammifère vivant dans les montagnes. L’hiver venu elle rentre en hibernation jusqu’à la venue du printemps. Et sinon je m’occupe de la communication de la comédie musicale avec mon équipe.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn close" id="ultima" data-dismiss="modal" aria-hidden="true">Fermer</button>
+                        </div>
+                    </div>
+                </div>
+                <div id="nicolas" class="sponsor">
+                    <a href="#modal-nicolas" role="button" class="btn" data-toggle="modal">
+                        <div class="sponsor-img">
+                            <img src="media/photos/nicolas.jpg" alt="Nicolas Évrard">
+                        </div>
+                    </a>
+                    <div id="modal-nicolas" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="label" aria-hidden="true">
+                        <div class="modal-header">
+                            <button type="button" class="close" id="ultima" data-dismiss="modal" aria-hidden="true">×</button>
+                            <h4 id="label">Nicolas Evrard</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>Ma vie de responsable logistique ne se résume pas seulement à des plannings et Doodles en tous genres. Non, je m’occupe aussi de la restauration lors de nos événements.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn close" id="ultima" data-dismiss="modal" aria-hidden="true">Fermer</button>
+                        </div>
+                    </div>
+                </div>
+                <div id="nicolas_m" class="sponsor">
+                    <a href="#modal-nicolas_m" role="button" class="btn" data-toggle="modal">
+                        <div class="sponsor-img">
+                            <img src="media/photos/nicolas_m.jpg" alt="Nicolas Merlet">
+                        </div>
+                    </a>
+                    <div id="modal-nicolas_m" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="label" aria-hidden="true">
+                        <div class="modal-header">
+                            <button type="button" class="close" id="ultima" data-dismiss="modal" aria-hidden="true">×</button>
+                            <h4 id="label">Nicolas Merlet</h4>
+                        </div>
+                        <div class="modal-body">
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn close" id="ultima" data-dismiss="modal" aria-hidden="true">Fermer</button>
+                        </div>
+                    </div>
+                </div>
+                <div id="constance" class="sponsor">
+                    <a href="#modal-constance" role="button" class="btn" data-toggle="modal">
+                        <div class="sponsor-img">
+                            <img src="media/photos/constance.jpg" alt="Constance Duncan">
+                        </div>
+                    </a>
+                    <div id="modal-constance" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="label" aria-hidden="true">
+                        <div class="modal-header">
+                            <button type="button" class="close" id="ultima" data-dismiss="modal" aria-hidden="true">×</button>
+                            <h4 id="label">Constance Duncan</h4>
+                        </div>
+                        <div class="modal-body">
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn close" id="ultima" data-dismiss="modal" aria-hidden="true">Fermer</button>
+                        </div>
+                    </div>
+                </div>
+                <div id="alice" class="sponsor">
+                    <a href="#modal-alice" role="button" class="btn" data-toggle="modal">
+                        <div class="sponsor-img">
+                            <img src="media/photos/alice.jpg" alt="Alice Sutra Fourcade">
+                        </div>
+                    </a>
+                    <div id="modal-alice" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="label" aria-hidden="true">
+                        <div class="modal-header">
+                            <button type="button" class="close" id="ultima" data-dismiss="modal" aria-hidden="true">×</button>
+                            <h4 id="label">Alice Sutra Fourcade</h4>
+                        </div>
+                        <div class="modal-body">
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn close" id="ultima" data-dismiss="modal" aria-hidden="true">Fermer</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <div class="row blue row item" id="partenaires">
+    <div class="row blue item" id="partenaires">
         <a onclick="hide_page('partenaires')" href="#">retour</a>
-        <div class="span8">
-            <ul class="thumbnails">
-                <li class="span4">
-                    <div class="thumbnail text-center">
-                        <img src="media/compiegne_musique.jpg" alt="Compiègne Musique">
-                        <h4>Compiegne Musique</h4>
+        <div class="span16">
+            <div class="sponsor">
+                <a href="#modal-musique" role="button" class="btn" data-toggle="modal">
+                    <div class="sponsor-img">
+                        <img class="media-object" src="media/compiegne_musique.jpg">
+                    </div>
+                </a>
+                <div id="modal-musique" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="label" aria-hidden="true">
+                    <div class="modal-header">
+                        <button type="button" id="musique" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                        <h4 id="label">Compiegne Musique</h4>
+                    </div>
+                    <div class="modal-body">
                         <p>Compiègne Musique s'occupe de la vente et réparations d'instruments (neufs et d’occasions).</p>
                         <p>20, rue Pierre Sauvage - 60200 Compiègne</p>
                         <p>Tél : 03 44 40 10 18</p>
                     </div>
-                </li>
-                <li class="span4">
-                    <div class="thumbnail text-center">
-                        <img src="media/brulerie_cour_le_roi.jpg" alt="Brulerie cour le roi">
-                        <h4>Brulerie cour le roi</h4>
+                    <div class="modal-footer">
+                        <button class="btn close" id="musique" data-dismiss="modal" aria-hidden="true">Fermer</button>
                     </div>
-                </li>
-                <li class="span3">
-                    <div class="thumbnail text-center">
-                        <img src="media/cartridge_world.png" alt="Cartridge World">
-                        <h4>Cartridge World</h4>
+                </div>
+            </div>
+            <div id="brulerie" class="sponsor">
+                <a href="#modal-brulerie" role="button" class="btn" data-toggle="modal">
+                    <div class="sponsor-img">
+                        <img src="media/brulerie_cour_le_roi.jpg">
                     </div>
-                </li>
-            </ul>
-        </div>
-        <div class="span8">
-            <ul class="thumbnails">
-                <li class="span4">
-                    <div class="thumbnail text-center">
+                </a>
+                <div id="modal-brulerie" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="label" aria-hidden="true">
+                    <div class="modal-header">
+                        <button type="button" id="brulerie" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                        <h4 id="label">Brulerie Cour le Roi</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p></p>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn close" id="brulerie" data-dismiss="modal" aria-hidden="true">Fermer</button>
+                    </div>
+                </div>
+            </div>
+            <div id="cartridge" class="sponsor">
+                <a href="#modal-cartridge" role="button" class="btn" data-toggle="modal">
+                    <div class="sponsor-img">
+                        <img class="media-object" src="media/cartridge_world.png">
+                    </div>
+                </a>
+                <div id="modal-cartridge" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="label" aria-hidden="true">
+                    <div class="modal-header">
+                        <button type="button" id="cartridge" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                        <h4 id="label">Cartridge World</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p></p>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn close" id="cartridge" data-dismiss="modal" aria-hidden="true">Fermer</button>
+                    </div>
+                </div>
+            </div>
+            <div id="ultima" class="sponsor">
+                <a href="#modal-ultima" role="button" class="btn" data-toggle="modal">
+                    <div class="sponsor-img">
                         <img src="media/ultima_games.jpg" alt="Ultima Games">
-                        <h4>Ultima Games</h4>
+                    </div>
+                </a>
+                <div id="modal-ultima" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="label" aria-hidden="true">
+                    <div class="modal-header">
+                        <button type="button" class="close" id="ultima" data-dismiss="modal" aria-hidden="true">×</button>
+                        <h4 id="label">Ultima Games</h4>
+                    </div>
+                    <div class="modal-body">
                         <p>Ouvert depuis décembre 1996, en plein coeur de Compiègne, Ultima te propose un large choix de jeux vidéos neufs ou d'occassions sur consoles et micro ordinateurs.</p>
                         <p>10, rue Bonnetiers - 60200 Compiègne</p>
                         <p>Tél : 03 44 40 48 97</p>
                     </div>
-                </li>
-                <li class="span4">
-                    <div class="thumbnail text-center">
+                    <div class="modal-footer">
+                        <button class="btn close" id="ultima" data-dismiss="modal" aria-hidden="true">Fermer</button>
+                    </div>
+                </div>
+            </div>
+            <div id="conduite" class="sponsor">
+                <a href="#modal-conduite" role="button" class="btn" data-toggle="modal">
+                    <div class="sponsor-img">
                         <img src="media/conduite2000.png" alt="Conduite 2000">
-                        <h4>Conduite 2000</h4>
+                    </div>
+                </a>
+                <div id="modal-conduite" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="label" aria-hidden="true">
+                    <div class="modal-header">
+                        <button type="button" class="close" id="conduite" aria-hidden="true">×</button>
+                        <h4 id="label">Conduite 2000</h4>
+                    </div>
+                    <div class="modal-body">
                         <p>Conduite 2000 est une auto-école à Compiègne dans le centre-ville.</p>
                         <p>30, rue d'Austerlitz - 60200 Compiègne</p>
                         <p>Tél : 03 44 23 16 57</p>
                     </div>
-                </li>
-                <li class="span4">
-                    <div class="thumbnail text-center">
+                    <div class="modal-footer">
+                        <button class="btn close" id="conduite" aria-hidden="true">Fermer</button>
+                    </div>
+                </div>
+            </div>
+            <div id="voy" class="sponsor">
+                <a href="#modal-voy" role="button" class="btn" data-toggle="modal">
+                    <div class="sponsor-img">
                         <img src="media/voyvoy.gif" alt="Voy Voy">
-                        <h4>Voy Voy</h4>
+                    </div>
+                </a>
+                <div id="modal-voy" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="label" aria-hidden="true">
+                    <div class="modal-header">
+                        <button type="button" class="close" id="voy" aria-hidden="true">×</button>
+                        <h4 id="label">Voy Voy</h4>
+                    </div>
+                    <div class="modal-body">
                         <p>Voy Voy est une boutique de prêt-à-porter masculin.</p>
                         <p>24, rue Solférino - 60200 Compiègne</p>
                         <p>Tél : 03 44 86 53 48</p>
                     </div>
-                </li>
-            </ul>
+                    <div class="modal-footer">
+                        <button class="btn close" id="voy" aria-hidden="true">Fermer</button>
+                    </div>
+                </div>
+            </div>
+            <div id="bonap" class="sponsor">
+                <a href="#modal-bonap" role="button" class="btn" data-toggle="modal">
+                    <div class="sponsor-img">
+                        <img src="media/bon_appetit.jpg" alt="Bon appétit">
+                    </div>
+                </a>
+                <div id="modal-bonap" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="label" aria-hidden="true">
+                    <div class="modal-header">
+                        <button type="button" class="close" id="bonap" aria-hidden="true">×</button>
+                        <h4 id="label">Bon appetit</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>Bon appétit ! est une société coopérative de consommateurs qui propose les services traiteur, cours de cuisine et la vente de produits frais de saison.</p>
+                        <p>Son but est d'instaurer une nouvelle attitude auprès de chaque consommateur concernant son alimentation : manger équilibré en privilégiant des
+                        produits de nos producteurs locaux de qualité, sans intrants de synthèse et acceptant une totale transparence de leurs pratiques.</p>
+                        <p>Sa ligne de conduite est “Le meilleur choix alimentaire disponible au meilleur coût possible”
+                        Plus de renseignements : <a href="http://www.bonappetit-compiegne.com">www.bonappetit-compiegne.com</a></p>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn close" id="bonap" aria-hidden="true">Fermer</button>
+                    </div>
+                </div>
+            </div>
+            <div class="sponsor">
+                <a href="#modal-crous" role="button" class="btn" data-toggle="modal">
+                    <div class="sponsor-img">
+                        <img src="media/crous.jpg" alt="CROUS">
+                    </div>
+                </a>
+                <div id="modal-crous" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="label" aria-hidden="true">
+                    <div class="modal-header">
+                        <button type="button" class="close" id="crous" aria-hidden="true">×</button>
+                        <h4 id="label">Crous</h4>
+                    </div>
+                    <div class="modal-body">
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn close" id="crous" aria-hidden="true">Fermer</button>
+                    </div>
+                </div>
+            </div>
+            <div class="sponsor">
+                <a href="#modal-bde" role="button" class="btn" data-toggle="modal">
+                    <div class="sponsor-img">
+                        <img src="media/BDE.jpg" alt="BDE">
+                    </div>
+                </a>
+                <div id="modal-bde" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="label" aria-hidden="true">
+                    <div class="modal-header">
+                        <button type="button" class="close" id="bde" aria-hidden="true">×</button>
+                        <h4 id="label">BDE</h4>
+                    </div>
+                    <div class="modal-body">
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn close" id="bde" aria-hidden="true">Fermer</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
     <div class="hero-unit yellow" id="devenir">
-        <a onclick="hide_page('devenir')" href="#">retour</a>
-        <h3>1) Merci</h3>
-        <p>Nous tenons à vous remercier de participer à notre projet.</p>
-        <h3>2) Votre participation :</h3>
+        <div class="row">
+            <div class="span16">
+                <a onclick="hide_page('devenir')" href="#">retour</a>
+                <div class="row">
+                    <div class="span8">
+                        <h3>1) Merci</h3>
+                        <p>Nous tenons à vous remercier de participer à notre projet.</p>
+                        <h3>2) Votre participation :</h3>
 
-        <p>Votre entrée en scène se fera au travers de tous nos supports de communication, à savoir :
-        <ul>
-            <li>un site Internet : www.lemystereducameleon.fr</li>
-            <li>des flyers distribués dans l’UTC et en ville,</li>
-            <li>des programmes les soirs de représentation,</li>
-            <li>des affiches dans toute la ville,</li>
-            <li>une bande annonce de notre spectacle visible sur Internet,</li>
-            <li>une banderole au-dessus de la rue Solférino et sur la passerelle de BF</li>
-            <li>une projection des logos partenaires sur le rideau du Théâtre Impérial, au début, à l’entracte et à la fin du spectacle,</li>
-            <li>des interventions à la radio</li>
-        </ul>
+                        <p>Votre entrée en scène se fera au travers de tous nos supports de communication, à savoir :
+                        <ul>
+                            <li>un site Internet : www.lemystereducameleon.fr</li>
+                            <li>des flyers distribués dans l’UTC et en ville,</li>
+                            <li>des programmes les soirs de représentation,</li>
+                            <li>des affiches dans toute la ville,</li>
+                            <li>une bande annonce de notre spectacle visible sur Internet,</li>
+                            <li>une banderole au-dessus de la rue Solférino et sur la passerelle de BF</li>
+                            <li>une projection des logos partenaires sur le rideau du Théâtre Impérial, au début, à l’entracte et à la fin du spectacle,</li>
+                            <li>des interventions à la radio</li>
+                        </ul>
+                    </div>
+                    <div class="span8">
+                        <h3>3) Tarifs :</h3>
+                        <ul>
+                            <li>50 € : Internet</li>
+                            <li>100 € : Internet + flyers, programmes</li>
+                            <li>150 € : Internet + flyers, programmes + affiches + Bande annonce</li>
+                            <li>200 € : Internet + flyers, programmes + affiches + BA + banderole + projection</li>
+                            <li>250 € : Internet + flyers, programmes + affiches + BA + banderole + projection + radio</li>
+                        </ul>
+                        <p>+ apparition DVD offerte pour les anciens sponsors</p>
 
-        <h3>3) Tarifs :</h3>
-        <ul>
-            <li>50 € : Internet</li>
-            <li>100 € : Internet + flyers, programmes</li>
-            <li>150 € : Internet + flyers, programmes + affiches + Bande annonce</li>
-            <li>200 € : Internet + flyers, programmes + affiches + BA + banderole + projection</li>
-            <li>250 € : Internet + flyers, programmes + affiches + BA + banderole + projection + radio</li>
-        </ul>
-        <p>+ apparition dvd offerte pour les anciens sponsors</p>
-
-        <p>Vous bénéficierez de places offertes.</p>
-        <p>Nous pourrons également vendre vos produits (consommables) lors de permanences dans l’UTC, ainsi qu’au café du théâtre, disponible après les représentations.</p>
-
+                        <p>Vous bénéficierez de places offertes.</p>
+                        <p>Nous pourrons également vendre vos produits (consommables) lors de permanences dans l’UTC, ainsi qu’au café du théâtre, disponible après les représentations.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <div class="hero-unit red" id="evenements">
-        <a onclick="hide_page('evenements')" href="#">retour</a>
-        <h3>Evenements</h3>
-        <p>À venir</p>
-    </div>        
+        <div class="row">
+            <div class="span12">
+                <a onclick="hide_page('evenements')" href="#">retour</a>
+                <h3>Evenements</h3>
+                <p>À venir</p>
+            </div>
+        </div>
+    </div>
     <script src="static/pages.js"></script>
 </body>
 </html>
